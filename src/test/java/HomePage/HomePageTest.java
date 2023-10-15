@@ -32,6 +32,7 @@ public class HomePageTest extends Base {
         }catch (AssertionError e){
             log.error("home page failed test"+e);
             Assert.fail("home page failed test"+e);
+
         }
 
     }
